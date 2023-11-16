@@ -29,6 +29,4 @@ AVEncoder 264编码
 绘制 PMC、SMC、RMC
 jetFlame、HotWave ( 效果的形式、状态 )
 
-制作自我操作飞行
-
-R 0 G 138 B 195 A255
+制作自我操作飞行（）
