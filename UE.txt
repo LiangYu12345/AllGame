@@ -30,3 +30,5 @@ AVEncoder 264编码
 jetFlame、HotWave ( 效果的形式、状态 )
 
 制作自我操作飞行（）
+
+HUD MoveForward线性移动进度条 移动中心点位置
