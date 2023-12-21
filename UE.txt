@@ -47,9 +47,12 @@ HUD MoveForward线性移动进度条 移动中心点位置
 获取动画单例
 动画通知、
 
-drop and drag
+drop and drag （忘补充）
 pick up
 scan
 
 3D UI
-NPC 视角朝向鼠标  视角朝向controll 转身
+NPC 视角朝向鼠标  视角朝向controll 转身 扭头  （待完成为组件）
+
+AI行为树
+对话
