@@ -69,5 +69,7 @@ r.Nanite.Tessellation=1
 制作全息投影Effect
 动作平滑、移动轴向平滑、 人物动画衔接（基础移动 动画转换僵硬）
 interface shield
-.hip 文件  Unreal for houdini
+.hip 文件  Unreal for （houdini）（3D Animate）  （UV 坐标改变） 
 Big World Map (差一个当前索引缩放比 和 动态缩放)
+Modeling Mode pinCut\Lattice\Displce\Remesh\Pivot
+hlsl  输出 GLSL      HLSL Tools for visual studio （hlsl、ush 、usf）
