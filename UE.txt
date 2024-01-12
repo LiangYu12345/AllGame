@@ -62,7 +62,7 @@ AI行为树 （未补充选择趋势算法权重）
 求得 俯仰、偏航 顶点不在同一个点。导致四个扇形面连接不起来。取消旋转向量。 得考虑先求顶点坐标 （已解决）
 
 RTV Snow （虚拟高度网格体 、 细分曲面、 virtual heightfield mesh\volumne、高度置换）
-5.3 启动 曲面细分
+5.3 启动 曲面细分 
 r.Nanite.AllowTessellation=1
 r.Nanite.Tessellation=1
 
@@ -73,3 +73,11 @@ interface shield
 Big World Map (差一个当前索引缩放比 和 动态缩放)
 Modeling Mode pinCut\Lattice\Displce\Remesh\Pivot
 hlsl  输出 GLSL      HLSL Tools for visual studio （hlsl、ush 、usf）
+重心坐标 BarycentricCoordinates2D   Life of a pixel 软光栅化 
+Custom depth          物体(模型、地形等)外表面的像素深度 
+Pixel Depth              物体上(外表面，半透明物体内部)当前进行渲染的像素点到摄像机的距离
+Scene Depth	场景中最不透的像素点到摄像机的距离。只能用于半透明和后处理材质
+平行四边形面积 俩边向量积  内部三角形则为 该值/2
+Dot，返回值为正时,目标在自己的前方,反之在自己的后方 
+Cross,返回值为正时,目标在自己的右方,反之在自己的左方
+UV坐标 法线值 Offset
